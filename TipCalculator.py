@@ -13,6 +13,7 @@ total_bill_incl_tip=each_person_share_incl_tip*How_Many_People
 
 #Print results
 print("\nAmount per person before tip", "{:6.2f}".format(pre_tip_per_person))
+print("Tip per person", "{:5.2f}".format(tip_per_person))
 print("Amount per person including tip", "{:6.2f}".format(each_person_share_incl_tip))
-print("Total tip ", "{:5.2f}".format(How_Many_People*tip_per_person))
+print("Total tip", "{:5.2f}".format(How_Many_People*tip_per_person))
 print("Total bill including tip", "{:6.2f}".format(Total_bill+How_Many_People*tip_per_person))
