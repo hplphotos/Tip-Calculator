@@ -1,4 +1,6 @@
 # Calculate the amount people pay when splitting a restaurant bill
+# Originally written on 161019
+# Modified on 220819
 #
 # Get input
 Total_bill=float(input("What is the total bill? "))
